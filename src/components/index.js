@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import ParticleBackground from "./ParticleBackground";
 import LoadingScreen from "./LoadingScreen";
+import CustomCursor from "./CustomCursor";
 
 export {
     Navbar,
@@ -18,4 +19,5 @@ export {
     Contact,
     ParticleBackground,
     LoadingScreen,
+    CustomCursor,
 };

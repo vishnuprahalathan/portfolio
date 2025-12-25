@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import { FaBars, FaTimes } from "react-icons/fa";
+import skctLogo from "../assets/skct_logo.jpg";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -37,7 +38,7 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    {/* Logo Placeholder - Text based for now */}
+                    <img src={skctLogo} alt='logo' className='w-9 h-9 object-contain rounded-full border border-[#915EFF]' />
                     <p className='text-white text-[18px] font-bold cursor-pointer flex '>
                         Vishnu &nbsp;
                         <span className='sm:block hidden'> | CyberSec & AI</span>
