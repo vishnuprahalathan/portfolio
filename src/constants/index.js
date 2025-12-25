@@ -262,7 +262,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://images.unsplash.com/photo-1586717791821-3f44a563cc4c?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
     {
@@ -283,7 +283,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1556905055-8f358a7a4bb4?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
     {
@@ -304,7 +304,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://images.unsplash.com/photo-1591150310398-d1a58ba5d23d?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1605649377455-ce711f5d246c?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
 ];

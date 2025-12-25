@@ -12,9 +12,9 @@ const TechCard = ({ tech, index }) => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: index * 0.05, duration: 0.5 }}
             whileHover={{ scale: 1.1, y: -10 }}
-            className='w-28 h-28 flex flex-col items-center justify-center gap-2 bg-tertiary rounded-xl p-4 shadow-card cursor-pointer border border-transparent hover:border-[#915EFF] transition-all duration-300'
+            className='w-28 h-28 flex flex-col items-center justify-center gap-2 bg-[#1d1836] rounded-xl p-4 shadow-card cursor-pointer border border-transparent hover:border-[#915EFF] transition-all duration-300'
         >
-            <Icon size={40} color={tech.color} />
+            <Icon size={40} color={tech.color || "#fff"} />
             <p className='text-white text-[12px] text-center font-medium'>{tech.name}</p>
         </motion.div>
     );
