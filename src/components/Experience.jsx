@@ -11,8 +11,6 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 
 const ExperienceCard = ({ experience }) => {
-    const Icon = experience.icon;
-
     return (
         <VerticalTimelineElement
             contentStyle={{
@@ -24,7 +22,11 @@ const ExperienceCard = ({ experience }) => {
             iconStyle={{ background: experience.iconBg }}
             icon={
                 <div className='flex justify-center items-center w-full h-full'>
-                    <Icon size={30} color="#fff" />
+                    <img
+                        src={experience.icon}
+                        alt={experience.company_name}
+                        className='w-[60%] h-[60%] object-contain'
+                    />
                 </div>
             }
         >

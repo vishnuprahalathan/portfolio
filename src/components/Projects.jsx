@@ -30,15 +30,11 @@ const ProjectCard = ({
                 className='glass-strong p-5 rounded-2xl sm:w-[360px] w-full border border-transparent hover:border-[#915EFF] transition-all duration-300 card-hover glow'
             >
                 <div className='relative w-full h-[230px]'>
-                    <div className='w-full h-full rounded-2xl bg-gradient-to-br from-[#915EFF] to-[#1d1836] flex items-center justify-center overflow-hidden'>
-                        <motion.h3
-                            className='text-white font-bold text-[32px] text-center px-4'
-                            whileHover={{ scale: 1.1 }}
-                            transition={{ duration: 0.3 }}
-                        >
-                            {name}
-                        </motion.h3>
-                    </div>
+                    <img
+                        src={image}
+                        alt='project_image'
+                        className='w-full h-full object-cover rounded-2xl'
+                    />
 
                     <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
                         <motion.div

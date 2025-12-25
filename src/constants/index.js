@@ -19,6 +19,13 @@ import {
     FaPalette,
 } from "react-icons/fa";
 
+import elevateLabs from "../assets/elevate_labs.jpg";
+import skctLogo from "../assets/skct_logo.jpg";
+import chanakyaShieldImg from "../assets/chanakya_shield.png";
+import passGuardImg from "../assets/passguard.png";
+import vpnImg from "../assets/vpn.png";
+import melangeImg from "../assets/melange.png";
+
 export const navLinks = [
     {
         id: "about",
@@ -128,8 +135,8 @@ const experiences = [
     {
         title: "Cybersecurity | AI/ML | DevOps Trainee",
         company_name: "Elevate Labs",
-        icon: FaTerminal,
-        iconBg: "#383E56",
+        icon: elevateLabs,
+        iconBg: "#E6DEDD",
         date: "Jun 2024 – Jul 2024",
         points: [
             "Performed vulnerability assessments combining cybersecurity and ML workflows (AI-driven Security).",
@@ -141,8 +148,8 @@ const experiences = [
     {
         title: "B.E. Computer Science & Engineering (Cybersecurity)",
         company_name: "Sri Krishna College of Technology",
-        icon: FaCertificate,
-        iconBg: "#E6DEDD",
+        icon: skctLogo,
+        iconBg: "#000000",
         date: "Aug 2023 - Present",
         points: ["CGPA: 7.36*", "Specialized in Network Security, Cryptography, and Secure Coding."],
     },
@@ -171,29 +178,8 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: "",
+        image: chanakyaShieldImg,
         source_code_link: "https://github.com/vishnuprahalathan/Chanakya_Shield",
-    },
-    {
-        name: "NutriScanAI",
-        description:
-            "AI-powered nutrition analysis application that scans food items and provides detailed nutritional information, calorie tracking, and personalized dietary recommendations using machine learning.",
-        tags: [
-            {
-                name: "ai",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "computer-vision",
-                color: "green-text-gradient",
-            },
-            {
-                name: "nutrition",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "",
-        source_code_link: "https://github.com/vishnuprahalathan/NutriScanAI",
     },
     {
         name: "PassGuard",
@@ -213,7 +199,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: passGuardImg,
         source_code_link: "https://github.com/vishnuprahalathan/PassGuard",
     },
     {
@@ -234,7 +220,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: vpnImg,
         source_code_link: "https://github.com/vishnuprahalathan/VPN",
     },
     {
@@ -255,13 +241,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: melangeImg,
         source_code_link: "https://github.com/vishnuprahalathan/melange",
     },
     {
         name: "Stationery Design",
         description:
-            "Professional stationery design suite including business cards, letterheads, and envelopes. Features modern monochromatic aesthetic with sleek branding elements for corporate identity.",
+            "Professional stationery design suite including business cards, letterheads, and envelopes. Features modern minimalist aesthetic with sleek branding elements for corporate identity.",
         tags: [
             {
                 name: "graphic-design",
@@ -276,7 +262,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: "https://images.unsplash.com/photo-1586717791821-3f44a563cc4c?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
     {
@@ -297,7 +283,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
     {
@@ -318,7 +304,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "",
+        image: "https://images.unsplash.com/photo-1591150310398-d1a58ba5d23d?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
     },
 ];
