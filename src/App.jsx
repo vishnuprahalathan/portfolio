@@ -1,7 +1,7 @@
 import React, { Suspense, useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, Skills, Projects, LoadingScreen } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Skills, Projects, LoadingScreen, CustomCursor } from "./components";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
