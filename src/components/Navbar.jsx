@@ -38,8 +38,7 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <img src={skctLogo} alt='logo' className='w-9 h-9 object-contain rounded-full border border-[#915EFF]' />
-                    <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+                    <p className='text-white text-[20px] font-bold cursor-pointer flex '>
                         Vishnu &nbsp;
                         <span className='sm:block hidden'> | CyberSec & AI</span>
                     </p>
