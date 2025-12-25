@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaBehance } from "react-icons/fa";
 
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -13,6 +13,7 @@ const ProjectCard = ({
     tags,
     image,
     source_code_link,
+    iconType,
 }) => {
     return (
         <motion.div
@@ -43,7 +44,11 @@ const ProjectCard = ({
                             whileHover={{ scale: 1.2, rotate: 360 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <FaGithub size={20} color="white" />
+                            {iconType === "behance" ? (
+                                <FaBehance size={20} color="white" />
+                            ) : (
+                                <FaGithub size={20} color="white" />
+                            )}
                         </motion.div>
                     </div>
                 </div>

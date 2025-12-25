@@ -17,6 +17,7 @@ import {
     FaUsers,
     FaCertificate,
     FaPalette,
+    FaBehance,
 } from "react-icons/fa";
 
 import elevateLabs from "../assets/elevate_labs.jpg";
@@ -180,6 +181,7 @@ const projects = [
         ],
         image: chanakyaShieldImg,
         source_code_link: "https://github.com/vishnuprahalathan/Chanakya_Shield",
+        iconType: "github",
     },
     {
         name: "PassGuard",
@@ -201,6 +203,7 @@ const projects = [
         ],
         image: passGuardImg,
         source_code_link: "https://github.com/vishnuprahalathan/PassGuard",
+        iconType: "github",
     },
     {
         name: "VPN Implementation",
@@ -222,6 +225,7 @@ const projects = [
         ],
         image: vpnImg,
         source_code_link: "https://github.com/vishnuprahalathan/VPN",
+        iconType: "github",
     },
     {
         name: "Melange",
@@ -243,6 +247,7 @@ const projects = [
         ],
         image: melangeImg,
         source_code_link: "https://github.com/vishnuprahalathan/melange",
+        iconType: "github",
     },
     {
         name: "Stationery Design",
@@ -262,8 +267,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://images.unsplash.com/photo-1572021335469-31716248e15c?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
+        iconType: "behance",
     },
     {
         name: "Apparel Branding",
@@ -285,6 +291,7 @@ const projects = [
         ],
         image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
+        iconType: "behance",
     },
     {
         name: "Product Packaging",
@@ -306,6 +313,7 @@ const projects = [
         ],
         image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=2070&auto=format&fit=crop",
         source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
+        iconType: "behance",
     },
 ];
 
