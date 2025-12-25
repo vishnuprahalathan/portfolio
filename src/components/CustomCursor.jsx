@@ -2,14 +2,16 @@ import React, { useEffect, useState } from "react";
 import { motion, useSpring } from "framer-motion";
 
 const CustomCursor = () => {
-    const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+    const [mousePosition, setMousePosition] = useState({ x: -100, y: -100 });
+    const [isVisible, setIsVisible] = useState(false);
 
     const springConfig = { damping: 20, stiffness: 200, mass: 0.5 };
-    const cursorX = useSpring(0, springConfig);
-    const cursorY = useSpring(0, springConfig);
+    const cursorX = useSpring(-100, springConfig);
+    const cursorY = useSpring(-100, springConfig);
 
     useEffect(() => {
         const mouseMove = (e) => {
+            if (!isVisible) setIsVisible(true);
             setMousePosition({
                 x: e.clientX,
                 y: e.clientY,
@@ -18,12 +20,18 @@ const CustomCursor = () => {
             cursorY.set(e.clientY - 16);
         };
 
+        const handleMouseOut = () => setIsVisible(false);
+
         window.addEventListener("mousemove", mouseMove);
+        window.addEventListener("mouseout", handleMouseOut);
 
         return () => {
             window.removeEventListener("mousemove", mouseMove);
+            window.removeEventListener("mouseout", handleMouseOut);
         };
-    }, [cursorX, cursorY]);
+    }, [cursorX, cursorY, isVisible]);
+
+    if (!isVisible) return null;
 
     return (
         <>

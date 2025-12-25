@@ -57,8 +57,8 @@ const ProjectCard = ({
                     {tags.map((tag) => (
                         <motion.p
                             key={`${name}-${tag.name}`}
-                            className={`text-[14px] ${tag.color} px-3 py-1 rounded-full glass text-white`}
-                            whileHover={{ scale: 1.1 }}
+                            className={`text-[12px] font-medium px-3 py-1 rounded-full border border-opacity-50 border-[#915EFF] bg-[#1d1836] text-white shadow-sm`}
+                            whileHover={{ scale: 1.1, backgroundColor: "#915EFF" }}
                         >
                             #{tag.name}
                         </motion.p>
