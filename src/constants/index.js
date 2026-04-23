@@ -158,19 +158,6 @@ const experiences = [
 
 const projects = [
     {
-        name: "PacketEye Pro",
-        description:
-            "AI-driven network threat detection system. Provides real-time packet analysis, anomaly detection, and comprehensive network monitoring with advanced machine learning capabilities.",
-        tags: [
-            { name: "python", color: "blue-text-gradient" },
-            { name: "ai", color: "green-text-gradient" },
-            { name: "cybersecurity", color: "pink-text-gradient" },
-        ],
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
-        source_code_link: "https://github.com/vishnuprahalathan/PacketEye-Pro",
-        iconType: "github",
-    },
-    {
         name: "FlowMind",
         description:
             "A Gemini Live Agent project that intelligently manages workflows, integrates language models, and provides conversational AI experiences tailored for productivity.",
@@ -248,6 +235,32 @@ const projects = [
         image: melangeImg,
         source_code_link: "https://github.com/vishnuprahalathan/melange",
         iconType: "github",
+    },
+    {
+        name: "Cinematic Photography",
+        description:
+            "A collection of my professional photography and color grading work. Features cinematic compositions, street photography, and advanced photo editing techniques.",
+        tags: [
+            { name: "photography", color: "blue-text-gradient" },
+            { name: "color-grading", color: "green-text-gradient" },
+            { name: "lightroom", color: "pink-text-gradient" },
+        ],
+        image: "https://images.unsplash.com/photo-1516806950269-e9314c45b8fb?q=80&w=2070&auto=format&fit=crop",
+        source_code_link: "https://www.instagram.com/supasutarajinikanto",
+        iconType: "behance", // using behance icon temporarily as a generic link/portfolio icon
+    },
+    {
+        name: "Video Reels & VFX Editing",
+        description:
+            "High-energy video reels, VFX, and motion graphics edited for Instagram. Showcasing seamless transitions, beat-syncing, and advanced post-production storytelling.",
+        tags: [
+            { name: "video-editing", color: "blue-text-gradient" },
+            { name: "premiere-pro", color: "green-text-gradient" },
+            { name: "after-effects", color: "pink-text-gradient" },
+        ],
+        image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=2000&auto=format&fit=crop",
+        source_code_link: "https://www.instagram.com/supasutarajinikanto",
+        iconType: "behance",
     },
 ];
 
