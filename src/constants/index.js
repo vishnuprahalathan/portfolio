@@ -27,6 +27,12 @@ import passGuardImg from "../assets/passguard.png";
 import vpnImg from "../assets/vpn.png";
 import melangeImg from "../assets/melange.png";
 
+// New local images to prevent broken links
+import flowmindImg from "../assets/flowmind.png";
+import visionAiImg from "../assets/vision_ai.png";
+import photographyImg from "../assets/photography.png";
+import reelsImg from "../assets/reels.png";
+
 export const navLinks = [
     {
         id: "about",
@@ -166,7 +172,7 @@ const projects = [
             { name: "react", color: "green-text-gradient" },
             { name: "gen-ai", color: "pink-text-gradient" },
         ],
-        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+        image: flowmindImg,
         source_code_link: "https://github.com/vishnuprahalathan/FlowMind",
         iconType: "github",
     },
@@ -179,7 +185,7 @@ const projects = [
             { name: "nextjs", color: "green-text-gradient" },
             { name: "architecture", color: "pink-text-gradient" },
         ],
-        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+        image: visionAiImg,
         source_code_link: "https://github.com/vishnuprahalathan/Vision-AI-Website-Architect",
         iconType: "github",
     },
@@ -245,7 +251,7 @@ const projects = [
             { name: "color-grading", color: "green-text-gradient" },
             { name: "lightroom", color: "pink-text-gradient" },
         ],
-        image: "https://images.unsplash.com/photo-1516806950269-e9314c45b8fb?q=80&w=2070&auto=format&fit=crop",
+        image: photographyImg,
         source_code_link: "https://www.instagram.com/supasutarajinikanto",
         iconType: "behance", // using behance icon temporarily as a generic link/portfolio icon
     },
@@ -258,7 +264,7 @@ const projects = [
             { name: "premiere-pro", color: "green-text-gradient" },
             { name: "after-effects", color: "pink-text-gradient" },
         ],
-        image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=2000&auto=format&fit=crop",
+        image: reelsImg,
         source_code_link: "https://www.instagram.com/supasutarajinikanto",
         iconType: "behance",
     },
