@@ -262,7 +262,7 @@ const projects = [
         tags: [
             { name: "video-editing", color: "blue-text-gradient" },
             { name: "premiere-pro", color: "green-text-gradient" },
-            { name: "after-effects", color: "pink-text-gradient" },
+            { name: "davinci-resolve", color: "pink-text-gradient" },
         ],
         image: reelsImg,
         source_code_link: "https://www.instagram.com/supasutarajinikanto",
