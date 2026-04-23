@@ -158,26 +158,53 @@ const experiences = [
 
 const projects = [
     {
+        name: "PacketEye Pro",
+        description:
+            "AI-driven network threat detection system. Provides real-time packet analysis, anomaly detection, and comprehensive network monitoring with advanced machine learning capabilities.",
+        tags: [
+            { name: "python", color: "blue-text-gradient" },
+            { name: "ai", color: "green-text-gradient" },
+            { name: "cybersecurity", color: "pink-text-gradient" },
+        ],
+        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
+        source_code_link: "https://github.com/vishnuprahalathan/PacketEye-Pro",
+        iconType: "github",
+    },
+    {
+        name: "FlowMind",
+        description:
+            "A Gemini Live Agent project that intelligently manages workflows, integrates language models, and provides conversational AI experiences tailored for productivity.",
+        tags: [
+            { name: "gemini-api", color: "blue-text-gradient" },
+            { name: "react", color: "green-text-gradient" },
+            { name: "gen-ai", color: "pink-text-gradient" },
+        ],
+        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+        source_code_link: "https://github.com/vishnuprahalathan/FlowMind",
+        iconType: "github",
+    },
+    {
+        name: "Vision AI Website Architect",
+        description:
+            "An AI-powered architect that visually plans and generates web structure blueprints. Seamlessly integrates with AI to conceptualize and structure modern web platforms.",
+        tags: [
+            { name: "ai-vision", color: "blue-text-gradient" },
+            { name: "nextjs", color: "green-text-gradient" },
+            { name: "architecture", color: "pink-text-gradient" },
+        ],
+        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+        source_code_link: "https://github.com/vishnuprahalathan/Vision-AI-Website-Architect",
+        iconType: "github",
+    },
+    {
         name: "Chanakya Shield",
         description:
-            "Real-Time Network Packet Sniffer & Anomaly Detection System. Hybrid IDS performing feature extraction and ML-based anomaly detection (SVM, Isolation Forest). Includes Email/Telegram alerts and PyQt5 Dashboard.",
+            "Real-Time Network Packet Sniffer & Anomaly Detection System. Hybrid IDS performing feature extraction and ML-based anomaly detection (SVM, Isolation Forest).",
         tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "scapy",
-                color: "green-text-gradient",
-            },
-            {
-                name: "machine-learning",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "docker",
-                color: "blue-text-gradient",
-            },
+            { name: "python", color: "blue-text-gradient" },
+            { name: "scapy", color: "green-text-gradient" },
+            { name: "machine-learning", color: "pink-text-gradient" },
+            { name: "docker", color: "blue-text-gradient" },
         ],
         image: chanakyaShieldImg,
         source_code_link: "https://github.com/vishnuprahalathan/Chanakya_Shield",
@@ -186,20 +213,11 @@ const projects = [
     {
         name: "PassGuard",
         description:
-            "Advanced password security tool featuring password strength analysis, breach detection, secure password generation, and encrypted storage with best-in-class cryptographic standards.",
+            "Advanced password security tool featuring password strength analysis, breach detection, secure password generation, and encrypted storage with best-in-class standards.",
         tags: [
-            {
-                name: "security",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "cryptography",
-                color: "green-text-gradient",
-            },
-            {
-                name: "python",
-                color: "pink-text-gradient",
-            },
+            { name: "security", color: "blue-text-gradient" },
+            { name: "cryptography", color: "green-text-gradient" },
+            { name: "python", color: "pink-text-gradient" },
         ],
         image: passGuardImg,
         source_code_link: "https://github.com/vishnuprahalathan/PassGuard",
@@ -210,18 +228,9 @@ const projects = [
         description:
             "Custom VPN solution built from scratch with secure tunneling protocols, encryption mechanisms, and traffic routing capabilities for enhanced privacy and security.",
         tags: [
-            {
-                name: "networking",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "security",
-                color: "green-text-gradient",
-            },
-            {
-                name: "encryption",
-                color: "pink-text-gradient",
-            },
+            { name: "networking", color: "blue-text-gradient" },
+            { name: "security", color: "green-text-gradient" },
+            { name: "encryption", color: "pink-text-gradient" },
         ],
         image: vpnImg,
         source_code_link: "https://github.com/vishnuprahalathan/VPN",
@@ -232,88 +241,13 @@ const projects = [
         description:
             "Skill Learning Platform built with React.js and Spring Boot. Full-stack application for instructors and learners with REST APIs, authentication, and interactive UI.",
         tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "springboot",
-                color: "green-text-gradient",
-            },
-            {
-                name: "mysql",
-                color: "pink-text-gradient",
-            },
+            { name: "react", color: "blue-text-gradient" },
+            { name: "springboot", color: "green-text-gradient" },
+            { name: "mysql", color: "pink-text-gradient" },
         ],
         image: melangeImg,
         source_code_link: "https://github.com/vishnuprahalathan/melange",
         iconType: "github",
-    },
-    {
-        name: "Stationery Design",
-        description:
-            "Professional stationery design suite including business cards, letterheads, and envelopes. Features modern minimalist aesthetic with sleek branding elements for corporate identity.",
-        tags: [
-            {
-                name: "graphic-design",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "branding",
-                color: "green-text-gradient",
-            },
-            {
-                name: "print-design",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop",
-        source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
-        iconType: "behance",
-    },
-    {
-        name: "Apparel Branding",
-        description:
-            "Custom apparel designs for t-shirts and hoodies featuring distinctive graphic elements and brand identity. Focuses on wearable art with modern typography and creative visual storytelling.",
-        tags: [
-            {
-                name: "apparel-design",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "branding",
-                color: "green-text-gradient",
-            },
-            {
-                name: "illustration",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop",
-        source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
-        iconType: "behance",
-    },
-    {
-        name: "Product Packaging",
-        description:
-            "Stylish product packaging design with 3D visualization and modern branding. Features vibrant blue-labeled bottle mockups showcasing expertise in product design and brand identity.",
-        tags: [
-            {
-                name: "packaging-design",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "3d-mockup",
-                color: "green-text-gradient",
-            },
-            {
-                name: "branding",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=2070&auto=format&fit=crop",
-        source_code_link: "https://www.behance.net/gallery/223811791/PORTFOLIO",
-        iconType: "behance",
     },
 ];
 

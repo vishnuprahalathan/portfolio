@@ -8,12 +8,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
+        primary: "#02000F", // Deep Midnight
         secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        tertiary: "#0E0A1E", // Darker Midnight for cards
+        "black-100": "#0A051A",
+        "black-200": "#050210",
+        accent: "#B026FF", // Neon Electric Purple
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['"Noto Serif"', 'serif'],
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",

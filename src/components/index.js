@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import ParticleBackground from "./ParticleBackground";
 import LoadingScreen from "./LoadingScreen";
 import CustomCursor from "./CustomCursor";
@@ -17,6 +18,7 @@ export {
     Experience,
     Projects,
     Contact,
+    Footer,
     ParticleBackground,
     LoadingScreen,
     CustomCursor,
